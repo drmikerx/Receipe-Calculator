@@ -38,7 +38,7 @@ int main() {
 
 	Ingredient* headNode = new Ingredient();
 
-	fileIn.open("C:\\Users\\Michael\\Desktop\\SampleReceipe.txt");
+	fileIn.open("");	// INSERT FILENAME HERE
 
 	if (fileIn.is_open()) {
 		cout << "The file is ready to be processed!" << endl;
